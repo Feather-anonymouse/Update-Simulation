@@ -10,7 +10,7 @@ Update Simulation for the protocol proposed in: https://ieeexplore.ieee.org/abst
 
 # Runnig a Test
 
-First, clone the above libraries, and the Update-Simulation-master file. Then, install the libraries and unzip the Update-Simulation file. After that:
+* First, clone the above libraries, and the Update-Simulation-master file. Then, install the libraries and unzip the Update-Simulation file. After that:
 
     cd Update-Simulation-master
     
@@ -19,3 +19,5 @@ First, clone the above libraries, and the Update-Simulation-master file. Then, i
     g++  -I$home/homeDirectory/include Rand.o Hashtable.o Polynomial.o EO-PSI-Update.cpp  -o test  -lntl -lgmpxx -lgmp -lcryptopp
     
     ./test
+    
+* In the above, "homeDirectory" should be replaced with the name of your machine home directory.
